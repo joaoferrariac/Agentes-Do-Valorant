@@ -8,7 +8,7 @@
 
 ## 💻 Projeto
 
-...
+Este projeto é uma aplicação web que exibe os agentes do jogo Valorant, utilizando a API Valorant. Os usuários podem navegar pela lista de agentes, visualizar detalhes como habilidades, informações de background e outras características. O projeto foi desenvolvido com foco em performance e design responsivo.
 
 ## 🚀 Tecnologias
 
@@ -19,21 +19,56 @@
 
 ## 📔 Conhecimentos abordados
 
-- [x] ITEM 1
-- [x] ITEM 2
-- [x] ITEM 3
-- [x] ITEM 4
+Neste projeto, os seguintes tópicos e práticas foram explorados:
+- [x] Utilização de API externa para integração de dados.
+- [x] Implementação de interfaces responsivas utilizando Sass.
+- [x] Tipagem estática e boas práticas de TypeScript.
+- [x] Configuração e otimização de um projeto Next.js.
 
 
-## 📝 Tema de casa
+## 📝 Tarefas Realizadas
 
-- [x] ITEM 1
-- [x] ITEM 2
-- [x] ITEM 3
-- [x] ITEM 4
+- [x] Configuração do ambiente Next.js com TypeScript e Sass.
+- [x] Consumo de dados da API Valorant.
+- [x] Exibição de detalhes dos agentes com informações dinâmicas.
+- [x] Responsividade da aplicação.
 
-<!-- ## 📺 Tutorial no Youtube
+## 📂 Estrutura do Projeto
 
-<a href="https://www.youtube.com/watch?v=6Ok-kUrBGp8" target="_blank">
- <img src="https://img.youtube.com/vi/6Ok-kUrBGp8/maxresdefault.jpg" width="100%" height="auto" />
-</a> -->
+```
+├── public/               # Arquivos estáticos como imagens e ícones
+├── src/                  # Código fonte principal
+│   ├── components/       # Componentes reutilizáveis da aplicação
+│   ├── pages/            # Páginas do Next.js
+│   ├── services/         # Serviços de integração com a API
+│   └── styles/           # Estilos em Sass
+├── next.config.js        # Configurações do Next.js
+├── package.json          # Dependências e scripts do projeto
+├── tsconfig.json         # Configurações do TypeScript
+└── README.md             # Documentação do projeto
+
+```
+
+⚙️ Como Executar o Projeto
+
+- 1. Clone o repositório:
+```
+  git clone https://github.com/joaoferrariac/valorant-agents.git
+```
+
+- 2. Acesse a pasta do projeto:
+```
+  cd valorant-agents
+```
+
+- 3. Instale as dependências:
+```
+  npm install
+```
+
+- 4. Execute o servidor de desenvolvimento:
+```
+  npm run dev
+```
+
+- 5 Acesse o projeto em http://localhost:3000.
