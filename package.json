@@ -12,7 +12,8 @@
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.67.0"
+    "sass": "^1.67.0",
+    "valorant": "file:"
   },
   "devDependencies": {
     "@types/node": "20.6.2",
