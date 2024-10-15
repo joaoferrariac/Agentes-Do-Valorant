@@ -1,12 +1,11 @@
+import { Header } from 'components/Header'
 import styles from 'styles/home.module.scss'
 
 const HomePage = () => (
-<div className={styles.container}>
-  <header>
-    <div className={styles.header__content}>header</div>
-  </header>
-  <main>main</main>
-</div>
+  <div className={styles.container}>
+    <Header />
+    <main>main</main>
+  </div>
 )
 
 export default HomePage
