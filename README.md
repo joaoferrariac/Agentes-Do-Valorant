@@ -51,24 +51,24 @@ Neste projeto, os seguintes tópicos e práticas foram explorados:
 
 ⚙️ Como Executar o Projeto
 
-- 1. Clone o repositório:
+- I. Clone o repositório:
 ```
   git clone https://github.com/joaoferrariac/valorant-agents.git
 ```
 
-- 2. Acesse a pasta do projeto:
+- II. Acesse a pasta do projeto:
 ```
   cd valorant-agents
 ```
 
-- 3. Instale as dependências:
+- III. Instale as dependências:
 ```
   npm install
 ```
 
-- 4. Execute o servidor de desenvolvimento:
+- IV. Execute o servidor de desenvolvimento:
 ```
   npm run dev
 ```
 
-- 5 Acesse o projeto em http://localhost:3000.
+- V. Acesse o projeto em http://localhost:3000.
