@@ -71,4 +71,4 @@ Neste projeto, os seguintes tópicos e práticas foram explorados:
   npm run dev
 ```
 
-- V. Acesse o projeto em http://localhost:3000.
+- V. Acesse o projeto em https://agentesdovalorant.netlify.app/
